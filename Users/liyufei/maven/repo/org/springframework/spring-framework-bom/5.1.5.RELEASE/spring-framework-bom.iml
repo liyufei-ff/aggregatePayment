@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="MavenCustomPomFilePath">
+    <option name="mavenPomFileUrl" value="file://$MODULE_DIR$/spring-framework-bom-5.1.5.RELEASE.pom" />
+  </component>
+</module>

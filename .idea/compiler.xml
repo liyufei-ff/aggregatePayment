@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="juhepay-uaa-service" />
+        <module name="juhepay-merchant-application" />
+        <module name="juhepay-common" />
+        <module name="juhepay-uaa-api" />
+        <module name="juhepay-transaction-service" />
+        <module name="juhepay-merchant-api" />
+        <module name="juhepay-gateway-service" />
+        <module name="juhepay-transaction-api" />
+        <module name="juhepay-user-service" />
+        <module name="juhepay-user-api" />
+        <module name="juhepay-merchant-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="juhepay-common" options="-parameters" />
+      <module name="juhepay-gateway" options="" />
+      <module name="juhepay-gateway-service" options="-parameters" />
+      <module name="juhepay-merchant" options="" />
+      <module name="juhepay-merchant-api" options="-parameters" />
+      <module name="juhepay-merchant-application" options="-parameters" />
+      <module name="juhepay-merchant-service" options="-parameters" />
+      <module name="juhepay-transaction" options="" />
+      <module name="juhepay-transaction-api" options="-parameters" />
+      <module name="juhepay-transaction-service" options="-parameters" />
+      <module name="juhepay-uaa" options="" />
+      <module name="juhepay-uaa-api" options="-parameters" />
+      <module name="juhepay-uaa-service" options="-parameters" />
+      <module name="juhepay-user" options="" />
+      <module name="juhepay-user-api" options="-parameters" />
+      <module name="juhepay-user-service" options="-parameters" />
+      <module name="juhepay_lily" options="" />
+    </option>
+  </component>
+</project>

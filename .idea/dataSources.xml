@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="juhepay_merchant_service@localhost" uuid="7594ad64-f2c7-46b4-9828-b015fd2ea9ab">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/juhepay_merchant_service</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="juhepay_transaction@localhost" uuid="bc920eae-a09d-4bc2-9c94-270a1068c224">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/juhepay_transaction</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="juhepay_uaa@localhost" uuid="0178b205-09ee-4a46-8554-36b500aaaafc">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/juhepay_uaa</jdbc-url>
+    </data-source>
+  </component>
+</project>
